@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de84213e-cfee-42db-8f16-0be3252892ed" name="Default Changelist" comment="" />
+    <list default="true" id="de84213e-cfee-42db-8f16-0be3252892ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/airquality.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/airquality.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +27,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -135,6 +141,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="false" RAKE_SPRING_PRE_LOADER_OPTION="false" RAILS_SPRING_PRE_LOADER_OPTION="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -147,6 +154,8 @@
       <updated>1570452720138</updated>
       <workItem from="1570452721338" duration="69000" />
       <workItem from="1570452792430" duration="58000" />
+      <workItem from="1570521241847" duration="67000" />
+      <workItem from="1570547915322" duration="1302000" />
     </task>
     <servers />
   </component>

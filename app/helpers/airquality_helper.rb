@@ -1,0 +1,2 @@
+module AirqualityHelper
+end
