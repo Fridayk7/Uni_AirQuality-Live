@@ -2,11 +2,11 @@
 Mapping Air Quality In the UK
 
 ## Homepage
-- [ ] Logo
-- [ ] Banner
+- [x] Logo
+- [x] Banner
 - [ ] Menu
 
 ## Other
-- [ ] Map
+- [x] Map
 - [ ] API
 - [ ] Historical Data
