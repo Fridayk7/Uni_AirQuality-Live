@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de84213e-cfee-42db-8f16-0be3252892ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/mezuah4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/airquality/history.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/airquality/safety.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/airquality_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/airquality_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/_menu.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_menu.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +42,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -177,7 +173,8 @@
       <workItem from="1570547915322" duration="5787000" />
       <workItem from="1570554677706" duration="6000" />
       <workItem from="1570566472043" duration="2301000" />
-      <workItem from="1570904438389" duration="2008000" />
+      <workItem from="1570904438389" duration="2296000" />
+      <workItem from="1570989325465" duration="2268000" />
     </task>
     <task id="LOCAL-00001" summary="added index&#10;updated readme.md">
       <created>1570549242204</created>
@@ -221,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570552611099</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updated menu&#10;added views">
+      <created>1570906469426</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570906469426</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +249,8 @@
     <MESSAGE value="updated routes.rb" />
     <MESSAGE value="added logo" />
     <MESSAGE value="updated readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated readme" />
+    <MESSAGE value="updated menu&#10;added views" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated menu&#10;added views" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/airquality@Development__airquality.rcov" NAME="Development: airquality Coverage Results" MODIFIED="1570904492653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="airquality" />
