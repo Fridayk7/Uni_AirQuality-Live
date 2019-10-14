@@ -1,3 +1,12 @@
-<%= image_tag("banner.png") %>
-<p> <%= link_to 'Home', airquality_index_path %> |   <%= link_to 'Pulmonary Diseases', airquality_history_path %> | <%=link_to 'How do I keep safe?', airquality_safety_path %></p>
+
+<nav>
+  <div class="nav-wrapper blue-grey darken-2 white-text">
+    <a href=""  class="brand-logo center"><%= image_tag("banner.png") %></a>
+    <ul class="left hide-on-med-and-down">
+      <li><%= link_to 'Home', airquality_index_path  %></li>
+      <li><%= link_to 'Pulmonary Diseases', airquality_history_path %></li>
+      <li><%=link_to 'How do I keep safe?', airquality_safety_path %></p></li>
+    </ul>
+  </div>
+</nav>
 <p> <%= link_to 'Country', countries_path %>  | <%= link_to 'State', states_path %> | <%= link_to 'City', cities_path %></p>
