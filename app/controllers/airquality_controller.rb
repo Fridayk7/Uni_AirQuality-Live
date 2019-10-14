@@ -1,7 +1,10 @@
 class AirqualityController < ApplicationController
   def index
 
-end
+    end
+
+
+  end
 
 
   def safety

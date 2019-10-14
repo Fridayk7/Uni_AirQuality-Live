@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="de84213e-cfee-42db-8f16-0be3252892ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/airquality/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/airquality/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/airquality_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/airquality_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/cities_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/cities_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/air_vision_service.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/air_vision_service.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -237,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570991627841</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="misc bug fixes">
+      <created>1571054900341</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571054900341</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +272,8 @@
     <MESSAGE value="updated readme" />
     <MESSAGE value="updated menu&#10;added views" />
     <MESSAGE value="added navbar&#10;integrated materialize css" />
-    <option name="LAST_COMMIT_MESSAGE" value="added navbar&#10;integrated materialize css" />
+    <MESSAGE value="misc bug fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="misc bug fixes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/airquality@Development__airquality.rcov" NAME="Development: airquality Coverage Results" MODIFIED="1570904492653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="airquality" />
