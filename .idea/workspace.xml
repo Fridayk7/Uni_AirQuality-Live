@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de84213e-cfee-42db-8f16-0be3252892ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/airquality.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/airquality.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/airquality/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/airquality/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/cities/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cities/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_menu.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_menu.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
