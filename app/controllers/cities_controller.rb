@@ -6,15 +6,12 @@ class CitiesController < ApplicationController
   def index
     @cities = City.all
 
-   hash = AirVisionService.new
-   @cities.each do |city|
-    #print(city.name)
-     #print(city.state)
-     #print(city.country)
-     @response = hash.get_city_data(city.name,city.state,city.country,"aqius")
-  city.update_column(:aqius, @response)
+    hash = AirVisionService.new
+    @cities.each do |city|
+      @response = hash.get_city_data(city.name, city.state, city.country,"aqius")
+      city.update_column(:aqius, @response)
+    end
   end
-end
 
   # GET /cities/1
   # GET /cities/1.json
@@ -71,13 +68,14 @@ end
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_city
-      @city = City.find(params[:id])
-    end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def city_params
-      params.require(:city).permit(:name, :state, :country)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_city
+    @city = City.find(params[:id])
+  end
+
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def city_params
+    params.require(:city).permit(:name, :state, :country)
+  end
 end

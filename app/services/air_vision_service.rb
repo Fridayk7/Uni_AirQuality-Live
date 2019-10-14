@@ -4,7 +4,6 @@ class AirVisionService
 def get_city_data(city,state,country,data)
   #doesnt work when city name has a space, calls per minute limit reached problem
 	response = HTTP.get("http://api.airvisual.com/v2/city?city=#{city}&state=#{state}&country=#{country}&key=77b6b459-4eab-4a31-8c6e-fcbeffdc1914")
-puts " 1 hereeeeeeeeeeeeeeeeeeeeeeeeee" + response
   parsed_response = JSON.parse(response.body)
 
   if parsed_response["data"]["current"] == nil
