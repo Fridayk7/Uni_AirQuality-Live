@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :cities
+  resources :states
+  resources :countries
   get 'airquality/history'
   get 'airquality/safety'
   get 'airquality/index'
