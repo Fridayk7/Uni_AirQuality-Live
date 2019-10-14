@@ -4,15 +4,23 @@ class CitiesController < ApplicationController
   # GET /cities
   # GET /cities.json
   def index
-    @cities = City.all
+  @cities = City.all
+  if City.exists?
+    City.destroy_all
+  end
+  City.create!(name: "Aberdeen", state:"Scotland" ,country:"UK")
+  City.create!(name: "Cardiff", state:"Wales" ,country:"UK")
+  City.create!(name: "Edinburgh", state:"Scotland" ,country:"UK")
+  City.create!(name: "London", state:"England" ,country:"UK")
+  City.create!(name: "Manchester", state:"England" ,country:"UK")
 
    hash = AirVisionService.new
-   @cities.each do |city|
-    #print(city.name)
-     #print(city.state)
-     #print(city.country)
-     @response = hash.get_city_data(city.name,city.state,city.country,"aqius")
-  city.update_column(:aqius, @response)
+
+  @cities.each do |city|
+     @response = hash.get_city_data(city.name,city.state,city.country)
+  @last_update = @response["ts"]
+  city.update_column(:aqius, @response["aqius"])
+  city.update_column(:mainus, @response["mainus"])
   end
 end
 
