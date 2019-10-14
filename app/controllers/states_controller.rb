@@ -5,14 +5,14 @@ class StatesController < ApplicationController
   # GET /states.json
   def index
     @states = State.all
-    if City.exists?
-      City.destroy_all
+    if State.exists?
+      State.destroy_all
     end
     hash = AirVisionService.new
     @response = hash.get_state("UK")
-    n=1
+    n=0
     while @response["data"][n] != nil
-      City.create!(name: @response["data"][n]["state"],country:"UK")
+      State.create!(name: @response["data"][n]["state"],country:"UK")
       n = n+1
     end
   end
