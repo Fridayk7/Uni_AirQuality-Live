@@ -5,6 +5,10 @@ class CountriesController < ApplicationController
   # GET /countries.json
   def index
     @countries = Country.all
+    if Country.exists?
+      Country.destroy_all
+    end
+    Country.create!(name: "UK")
   end
 
   # GET /countries/1
