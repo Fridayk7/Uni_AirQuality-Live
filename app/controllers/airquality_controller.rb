@@ -1,5 +1,6 @@
 class AirqualityController < ApplicationController
   def index
+    @cities = City.all
     end
 
 
