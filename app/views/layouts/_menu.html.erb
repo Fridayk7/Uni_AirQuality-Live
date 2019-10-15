@@ -1,19 +1,45 @@
 <head>
-  <%= stylesheet_link_tag 'materialize' %>
 </head>
 
 <body>
 
-<div class = "header">
-<h1>BreatheFree</h1>
-</div>
 
-<ul>
-  <li><%= link_to 'Home', airquality_index_path %></li>
-  <li><%= link_to 'Pulmonary Diseases', airquality_history_path %></li>
-  <li><%= link_to 'How do I keep safe?', airquality_safety_path %></li>
-</ul>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+  <a class="navbar-brand" href="/">BreatheFree</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/airquality/history">Pulmonary Diseases</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/airquality/safety">How do I keep safe?</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<main role="main">
+  <div class="jumbotron">
+    <h1 class="display-1">Welcome to BreatheFree</h1>
+    <p class="lead">A website dedicated to informing the public about air quality.</p>
+    <p class ="text-muted"><small>Created by Paraskevas Kleanthous, Andrei Rotariu and Faizan Mohiuddin</small></p>
+  </div>
+</main>
+
+<div class = "container">
+
+<!-- <li><%= link_to 'Home', airquality_index_path %></li>
+<li><%= link_to 'Pulmonary Diseases', airquality_history_path %></li>
+<li><%= link_to 'How do I keep safe?', airquality_safety_path %></li> -->
 
 <p> <%= link_to 'Country', countries_path %>  | <%= link_to 'State', states_path %>
   | <%= link_to 'City', cities_path %></p>
+
+
 </body>
