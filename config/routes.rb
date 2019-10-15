@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :disease_records
   resources :cities
   resources :states
   resources :countries

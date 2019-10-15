@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @disease_record.year %>
+</p>
+
+<p>
+  <strong>Region:</strong>
+  <%= @disease_record.region %>
+</p>
+
+<p>
+  <strong>Lc:</strong>
+  <%= @disease_record.lc %>
+</p>
+
+<p>
+  <strong>Copd:</strong>
+  <%= @disease_record.copd %>
+</p>
+
+<p>
+  <strong>Bronch:</strong>
+  <%= @disease_record.bronch %>
+</p>
+
+<p>
+  <strong>Asthma:</strong>
+  <%= @disease_record.asthma %>
+</p>
+
+<%= link_to 'Edit', edit_disease_record_path(@disease_record) %> |
+<%= link_to 'Back', disease_records_path %>
