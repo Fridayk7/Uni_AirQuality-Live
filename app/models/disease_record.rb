@@ -1,0 +1,2 @@
+class DiseaseRecord < ApplicationRecord
+end
