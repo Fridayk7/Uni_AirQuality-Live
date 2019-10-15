@@ -1,12 +1,7 @@
 # airquality
 Mapping Air Quality In the UK
 
-## Homepage
-- [x] Logo
-- [x] Banner
-- [ ] Menu
-
-## Other
-- [x] Map
-- [ ] API
-- [ ] Historical Data
+## HOW TO GET IT TO WORK
+> bundle install
+> rails db:migrate
+> rake disease_records:seed_disease_records
