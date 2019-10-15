@@ -30,6 +30,28 @@ ActiveRecord::Schema.define(version: 2019_10_15_195850) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "disease_records", force: :cascade do |t|
+    t.integer "year"
+    t.string "region"
+    t.integer "lc"
+    t.integer "copd"
+    t.integer "bronch"
+    t.integer "asthma"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "diseases", force: :cascade do |t|
+    t.integer "year"
+    t.string "region"
+    t.integer "lc"
+    t.integer "copd"
+    t.integer "bronch"
+    t.integer "asthma"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "states", force: :cascade do |t|
     t.string "name"
     t.string "country"
