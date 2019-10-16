@@ -1,9 +1,14 @@
 Rails.application.routes.draw do
+
+  get 'historical/index'
+  get 'historical/result'
+
   namespace :api do
     namespace :v1 do
       resources :cities
     end
   end
+
   resources :disease_records
   resources :cities
   resources :states

@@ -1,0 +1,7 @@
+<h1>THIS WILL BE HISTORICAL DATA</h1>
+<%= form_with :url => {:action => :index}, :method => "get" do |form| %>
+  <em><%= form.label "Select year and region:" %></em>
+  <%= form.collection_select(:search_year, @years, :year, :year) %>
+  <%= form.collection_select(:search_region, @regions, :region, :region) %>
+  <%= form.submit("Go!")%>
+<% end %>
