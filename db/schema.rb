@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_15_092939) do
+ActiveRecord::Schema.define(version: 2019_10_15_195850) do
 
   create_table "cities", force: :cascade do |t|
     t.string "name"
@@ -20,6 +20,8 @@ ActiveRecord::Schema.define(version: 2019_10_15_092939) do
     t.datetime "updated_at", null: false
     t.string "aqius"
     t.string "mainus"
+    t.string "lat"
+    t.string "lon"
   end
 
   create_table "countries", force: :cascade do |t|

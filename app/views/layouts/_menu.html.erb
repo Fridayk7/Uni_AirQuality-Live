@@ -1,19 +1,41 @@
-<head>
-  <%= stylesheet_link_tag 'materialize' %>
-</head>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
 
-<body>
+  <body>
+    
+    <div class="card text-center">
+      <div class="card-header">
+        <ul class="nav nav-pills card-header-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/historical/index">Pulmonary Diseases</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/airquality/safety">How do I keep safe?</a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-<div class = "header">
-<h1>BreatheFree</h1>
-</div>
+  <main role="main">
+    <div class="jumbotron">
+      <h1 class="display-1">Welcome to BreatheFree</h1>
+      <p class="lead">A website dedicated to informing the public about air quality.</p>
+      <p class ="text-muted"><small>Created by Paraskevas Kleanthous, Andrei Rotariu and Faizan Mohiuddin</small></p>
+    </div>
+  </main>
 
-<ul>
-  <li><%= link_to 'Home', airquality_index_path %></li>
-  <li><%= link_to 'Pulmonary Diseases', historical_index_path %></li>
-  <li><%= link_to 'How do I keep safe?', airquality_safety_path %></li>
-</ul>
+  <div class = "container">
+    <div class="alert alert-danger" role="alert">
+      BreatheFree is <b>under construction</b>!
+    </div>
 
-<p> <%= link_to 'Country', countries_path %>  | <%= link_to 'State', states_path %>
-  | <%= link_to 'City', cities_path %></p>
-</body>
+
+  <p> <%= link_to 'Country', countries_path %>  | <%= link_to 'State', states_path %>
+    | <%= link_to 'City', cities_path %></p>
+
+
+  </body>
