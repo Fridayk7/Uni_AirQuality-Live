@@ -27,11 +27,11 @@
     manchester = L.marker([ <%= @cities[4].lon %>, <%= @cities[4].lat %>] ).addTo(map);
 
     // add popup to the marker
-    aberdeen.bindPopup("<b>[<%= @cities[0].name %> ]</b><br/>AQI INDEX<br/><%= @cities[0].aqius %>").openPopup();
-    cardiff.bindPopup("<b><%= @cities[1].name %> </b><br/>AQI INDEX<br/><%= @cities[1].aqius %>").openPopup();
-    edinburgh.bindPopup("<b><%= @cities[2].name %> </b><br/>AQI INDEX<br/><%= @cities[2].aqius %>").openPopup();
-    london.bindPopup("<b><%= @cities[3].name %> </b><br/>AQI INDEX<br/><%= @cities[3].aqius %>").openPopup();
-    manchester.bindPopup("<b><%= @cities[4].name %> </b><br/>AQI INDEX<br/><%= @cities[4].aqius %>").openPopup();
+    aberdeen.bindPopup("<b><%= @cities[0].name %> </b><br/>AQI<br/><%= @cities[0].aqius %>").openPopup();
+    cardiff.bindPopup("<b><%= @cities[1].name %> </b><br/>AQI<br/><%= @cities[1].aqius %>").openPopup();
+    edinburgh.bindPopup("<b><%= @cities[2].name %> </b><br/>AQI<br/><%= @cities[2].aqius %>").openPopup();
+    london.bindPopup("<b><%= @cities[3].name %> </b><br/>AQI<br/><%= @cities[3].aqius %>").openPopup();
+    manchester.bindPopup("<b><%= @cities[4].name %> </b><br/>AQI<br/><%= @cities[4].aqius %>").openPopup();
   </script>
 </body>
 </html>
