@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'historical/index'
+  get 'historical/result'
   resources :disease_records
   resources :cities
   resources :states
