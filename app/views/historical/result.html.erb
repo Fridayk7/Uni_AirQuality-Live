@@ -7,55 +7,25 @@ document.addEventListener('DOMContentLoaded', function () {
                 type: 'bar'
             },
             title: {
-                text: 'Fruit Consumption'
+                text: '<%= @search_region %> <%= @search_year %>'
             },
             xAxis: {
-                categories: ['Apples', 'Bananas', 'Oranges']
+                categories: ['Lung Cancer', 'COPD', 'Bronchiectasis', "Asthma"]
             },
             yAxis: {
                 title: {
-                    text: 'Fruit eaten'
+                    text: 'No. of people diagnosed per 100,000'
                 }
             },
             series: [{
-                name: 'Jane',
-                data: [1, 0, 4]
-            }, {
-                name: 'John',
-                data: [5, 7, 3]
+                name: "Diagnoses",
+                data: <%= @data_list[0] %>
             }]
         });
     });
 
 
 </script>
-
-
-
-
-
-
-<p>------------CHART WILL GO HERE-----------</p>
-
-
-
-
-
-
-
-
-
-
-
-
-<p>
-  YEAR: <%= @search_year.inspect %>
-</p>
-<p>
-  REGION: <%= @search_region.inspect %>
-</p>
-
-<p>----------------------------------------------------------</p>
 
 <p>
   <%= link_to("Back", historical_index_path) %>

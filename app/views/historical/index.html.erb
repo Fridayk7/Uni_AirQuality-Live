@@ -1,4 +1,6 @@
-<h1>THIS WILL BE HISTORICAL DATA</h1>
+<h4>This tool can be used to search for pulmonary disease diagnosis in different regions by year.</h4>
+<h4>A chart containing the data will be shown.</h4>
+<p></p>
 <%= form_with :url => {:action => :index}, :method => "get" do |form| %>
   <em><%= form.label "Select year and region:" %></em>
   <%= form.collection_select(:search_year, @years, :year, :year) %>
