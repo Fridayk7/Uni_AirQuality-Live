@@ -1,5 +1,3 @@
-<!--Andrei Rotariu-->
-
 <h4>This tool can be used to search for pulmonary disease diagnosis in different regions by year.</h4>
 <h4>A chart containing the data will be shown.</h4>
 <p></p>
@@ -7,5 +5,5 @@
   <em><%= form.label "Select year and region:" %></em>
   <%= form.collection_select(:search_year, @years, :year, :year) %>
   <%= form.collection_select(:search_region, @regions, :region, :region) %>
-  <%= form.submit("Go!")%>
+  <%= form.submit("Go!") %>
 <% end %>
