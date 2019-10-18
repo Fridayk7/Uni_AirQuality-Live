@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de84213e-cfee-42db-8f16-0be3252892ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/airquality.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/airquality.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/materialize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/airquality_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/airquality_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/historical_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/historical_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/airquality/history.html.erb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/airquality/safety.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/airquality/safety.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/historical/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/historical/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/historical/result.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/historical/result.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,6 +198,7 @@
       <workItem from="1570989325465" duration="3793000" />
       <workItem from="1571188580436" duration="258000" />
       <workItem from="1571335503504" duration="5422000" />
+      <workItem from="1571423514614" duration="1547000" />
     </task>
     <task id="LOCAL-00001" summary="added index&#10;updated readme.md">
       <created>1570549242204</created>
