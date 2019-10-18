@@ -12,6 +12,6 @@ Mapping Air Quality In the UK
 ## Group Members
 Faizan Mohiuddin (51874279)
 
-Andrei Rotariu (ID)
+Andrei Rotariu (51876039)
 
 Paraskevas Kleanthous (ID)
