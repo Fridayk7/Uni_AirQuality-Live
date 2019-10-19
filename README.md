@@ -10,7 +10,7 @@ Paraskevas Kleanthous (51874763)
 
 ## Live Version
 Available on heroku at:
-> ```https://frozen-harbor-77500.herokuapp.com```
+> ```https://stark-refuge-13120.herokuapp.com```
 
 ## Running the Application Locally
 1. > cd in to the airquality folder
