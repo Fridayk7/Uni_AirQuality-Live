@@ -17,7 +17,7 @@ class DiseaseRecordsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create disease_record" do
     assert_difference('DiseaseRecord.count') do
-      post disease_records_url, params: { disease_record: { asthma: @disease_record.asthma, bronch: @disease_record.bronch, copd: @disease_record.copd, lc: @disease_record.lc, region: @disease_record.region, year: @disease_record.year } }
+      post disease_records_url, params: { disease_record: { asthma: @disease_record.asthma, bronch: @disease_record.bronch, copd: @disease_record.copd, lc: @disease_record.lc, region_id: @disease_record.region_id, year: @disease_record.year } }
     end
 
     assert_redirected_to disease_record_url(DiseaseRecord.last)
@@ -34,7 +34,7 @@ class DiseaseRecordsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update disease_record" do
-    patch disease_record_url(@disease_record), params: { disease_record: { asthma: @disease_record.asthma, bronch: @disease_record.bronch, copd: @disease_record.copd, lc: @disease_record.lc, region: @disease_record.region, year: @disease_record.year } }
+    patch disease_record_url(@disease_record), params: { disease_record: { asthma: @disease_record.asthma, bronch: @disease_record.bronch, copd: @disease_record.copd, lc: @disease_record.lc, region_id: @disease_record.region_id, year: @disease_record.year } }
     assert_redirected_to disease_record_url(@disease_record)
   end
 

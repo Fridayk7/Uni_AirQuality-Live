@@ -5,6 +5,6 @@
 <%= form_with :url => {:action => :index}, :method => "get" do |form| %>
   <em><%= form.label "Select year and region:" %></em>
   <%= form.collection_select(:search_year, @years, :year, :year) %>
-  <%= form.collection_select(:search_region, @regions, :region, :region) %>
+  <%= form.collection_select(:search_region, @regions, :id, :name) %>
   <%= form.submit("Go!") %>
 <% end %>
