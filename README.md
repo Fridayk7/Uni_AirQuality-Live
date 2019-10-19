@@ -2,7 +2,7 @@
 Mapping Air Quality In the UK
 
 Live version available on heroku at:
-```https://frozen-harbor-77500.herokuapp.com```
+```https://stark-refuge-13120.herokuapp.com```
 
 ## Running the Application Locally
 - > cd in to the airquality folder
