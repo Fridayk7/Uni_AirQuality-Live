@@ -1,7 +1,7 @@
 # BreatheFree
 Raising Awareness of Air Pollution in the UK.
 
-\
+##Purpose
 We aim to provide:
 - Live air quality data at different UK locations.
 - Pulmonary disease data.
@@ -34,7 +34,7 @@ Available on heroku at:
 2. User defined graphs using the open data. (accessed through /historical/index)
 3. Map using live API Data. (on homepage - /airquality/index)
 4. API, which returns JSON object, is provided. To view:
-    * Open the webpage in firefox.
+    * Open the webpage in ***firefox*** (as it is displayed better).
     * Go to '/api/v1/disease_records'.
     * JSON list is shown and can then be downloaded as JSON item.
 5. Bootstrap is fully integrated.
@@ -66,6 +66,12 @@ Type in the following commands in linux terminal:
 - ```sudo gem install pg```
 
 ### Issue #4
+
+Sometimes on the historical/index page the first chart doesn't appear.
+
+**Solution:** Simply refresh the page.
+
+### Issue #5
 
 Open data source is not large enough (doesn't have 2000-3000 records). \
 We couldn't find enough _free_ data that was relevant enough to \
