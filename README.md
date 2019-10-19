@@ -19,6 +19,20 @@ Andrei Rotariu (51876039)
 
 Paraskevas Kleanthous (51874763)
 
+## Known Issues
+
+#### Issue #1
+
+The map in the homepage (localhost:3000) sometimes does not load.
+
+**Solution:** Simply refresh the page.
+
+#### Issue #2
+
+Although very uncommon, you may come accross a Rails ParserError when loading the homepage (localhost:3000).
+
+**Solution:** Simply refresh the page.
+
 ## Contribution
 
 Faizan 33.3%
