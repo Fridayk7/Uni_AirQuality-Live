@@ -19,13 +19,6 @@ ActiveRecord::Schema.define(version: 2019_10_19_215036) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "avg_diagnoseds", force: :cascade do |t|
-    t.string "region"
-    t.string "average"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "cities", force: :cascade do |t|
     t.string "name"
     t.string "state"
