@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="de84213e-cfee-42db-8f16-0be3252892ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/highcharts.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/highcharts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/historical_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/historical_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/historical/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/historical/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/historical/result.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/historical/result.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -204,7 +201,7 @@
       <workItem from="1571430940810" duration="599000" />
       <workItem from="1571506614197" duration="747000" />
       <workItem from="1571508078264" duration="21000" />
-      <workItem from="1571515996888" duration="8621000" />
+      <workItem from="1571515996888" duration="9434000" />
     </task>
     <task id="LOCAL-00001" summary="added index&#10;updated readme.md">
       <created>1570549242204</created>
@@ -304,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571519199673</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added new chart">
+      <created>1571524628939</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1571524628939</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +337,8 @@
     <MESSAGE value="misc bug fixes" />
     <MESSAGE value="heroku progress" />
     <MESSAGE value="updated historical&#10;updated readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated historical&#10;updated readme" />
+    <MESSAGE value="added new chart" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new chart" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/airquality@Development__airquality.rcov" NAME="Development: airquality Coverage Results" MODIFIED="1570904492653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="airquality" />
