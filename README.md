@@ -16,10 +16,11 @@ Available on heroku at:
 1. > cd in to the airquality folder
 2. > run ```bundle install``` on terminal
 3. > migrate the database by running ```rails db:migrate```
-4. > seed the database using ```rake region:seed_region```
-5. > seed the database using ```rake region:seed_diseases```
-6. > start the application with ```rails s```
-7. > to access the application, open your web browser, type ```http://localhost:3000``` in to the address bar
+4. > seed the region database using ```rake region:seed_region```
+5. > seed the diseases database using ```rake region:seed_diseases```
+6. > (optional to have visual on database) seed the average database using ```rake region:seed_average``` 
+7. > start the application with ```rails s```
+8. > to access the application, open your web browser, type ```http://localhost:3000``` in to the address bar
 
 
 ## Features Included:
