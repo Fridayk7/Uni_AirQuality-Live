@@ -38,4 +38,27 @@ namespace :region do
     end
   end
 
-end
+  task seed_average: :environment do
+
+    AverageRegion.destroy_all
+    r = Region.last.id.to_i
+    for i in 1..r do
+      @region_data =  DiseaseRecord.where region_id: i
+      puts @region_data
+      @avg_total = 0
+      @region_data.each do |year|
+        @region= year.region.name
+        @avg = year.lc + year.copd + year.bronch + year.asthma
+        @avg = @avg/4
+        @avg_total += @avg
+      end
+      AverageRegion.create!(
+        region: @region,
+        average: @avg_total/4.to_d
+      )
+    end
+  end
+
+
+
+    end

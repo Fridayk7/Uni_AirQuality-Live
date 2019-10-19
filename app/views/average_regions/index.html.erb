@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Average Regions</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Region</th>
+      <th>Average</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @average_regions.each do |average_region| %>
+      <tr>
+        <td><%= average_region.region %></td>
+        <td><%= average_region.average %></td>
+        <td><%= link_to 'Show', average_region %></td>
+        <td><%= link_to 'Edit', edit_average_region_path(average_region) %></td>
+        <td><%= link_to 'Destroy', average_region, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Average Region', new_average_region_path %>

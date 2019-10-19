@@ -1,0 +1,2 @@
+class AverageRegion < ApplicationRecord
+end

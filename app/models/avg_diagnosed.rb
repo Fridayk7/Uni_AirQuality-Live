@@ -1,0 +1,2 @@
+class AvgDiagnosed < ApplicationRecord
+end
