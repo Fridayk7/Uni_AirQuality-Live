@@ -8,7 +8,7 @@ class HistoricalController < ApplicationController
       end
       ##
     else
-      @years = DiseaseRecord.select(:year)
+      @years = DiseaseRecord.select('distinct(year)')
       @regions = Region.all
     end
 
