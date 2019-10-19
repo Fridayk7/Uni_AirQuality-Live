@@ -1,5 +1,4 @@
 class HistoricalController < ApplicationController
-
   # Choosing a chart. Seeing diagnoses totals data.
   def index
     if params[:commit] == "Go!"
@@ -9,6 +8,7 @@ class HistoricalController < ApplicationController
       end
       ##
     else
+
       @years = DiseaseRecord.select('distinct(year)')
       @regions = Region.all
     end
@@ -22,6 +22,8 @@ class HistoricalController < ApplicationController
       }
       @totals << @total_for_year
     }
+
+
   end
 
   # Showing the chart result.
