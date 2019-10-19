@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de84213e-cfee-42db-8f16-0be3252892ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_menu.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_menu.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/airquality.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/airquality.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +198,9 @@
       <workItem from="1570989325465" duration="3793000" />
       <workItem from="1571188580436" duration="258000" />
       <workItem from="1571335503504" duration="5422000" />
-      <workItem from="1571423514614" duration="4395000" />
+      <workItem from="1571423514614" duration="4618000" />
+      <workItem from="1571430940810" duration="599000" />
+      <workItem from="1571506614197" duration="747000" />
     </task>
     <task id="LOCAL-00001" summary="added index&#10;updated readme.md">
       <created>1570549242204</created>
@@ -281,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571427840764</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="heroku progress">
+      <created>1571428275506</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1571428275506</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
