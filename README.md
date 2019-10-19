@@ -9,7 +9,7 @@ Live version available on heroku at:
 - > run ```bundle install``` on terminal
 - > migrate the database by running ```rails db:migrate```
 - > seed the database using ```rake region:seed_region```
-- > seed the database using ```rake region:seed_disease```
+- > seed the database using ```rake region:seed_diseases```
 - > start the application with ```rails s```
 - > to access the application, open your web browser, type ```http://localhost:3000``` in to the address bar
 
