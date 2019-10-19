@@ -8,8 +8,8 @@ Live version available on heroku at:
 - > cd in to the airquality folder
 - > run ```bundle install``` on terminal
 - > migrate the database by running ```rails db:migrate```
-- > seed the database using ```rake regions:seed_regions```
-- > seed the database using ```rake regions:seed_diseases```
+- > seed the database using ```rake region:seed_region```
+- > seed the database using ```rake region:seed_disease```
 - > start the application with ```rails s```
 - > to access the application, open your web browser, type ```http://localhost:3000``` in to the address bar
 
