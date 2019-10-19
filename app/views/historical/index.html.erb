@@ -1,6 +1,41 @@
+<div id="container" style="width:100%; height:400px;"></div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var myChart = Highcharts.chart('container', {
 
-<h4>This tool can be used to search for pulmonary disease diagnosis in different regions by year.</h4>
-<h4>A chart containing the data will be shown.</h4>
+            title: {
+                text: 'Total Pulmonary Disease Diagnoses By Year'
+            },
+
+            yAxis: {
+                title: {
+                    text: 'No. of Diagnoses'
+                }
+            },
+
+            plotOptions: {
+                series: {
+                    label: {
+                        connectorAllowed: false
+                    },
+                    pointStart: 2006
+                }
+            },
+
+            series: [{
+                name: 'All Diseases (Lung Cancer, COPD, Bronchiectasis & Asthma)',
+                data: <%= @totals %>
+            }]
+        })
+    })
+</script>
+<p>The analytical plotting of the total diagnoses per year clearly shows that, over the years, there has been an increase
+in pulmonary diseases.</p>
+
+
+<h4><ul>Search Tool</ul></h4>
+<h5>This can be used to further search for pulmonary disease diagnosis in different regions by year.</h5>
+<h5>A chart containing the data will be shown on a new page.</h5>
 <p></p>
 <%= form_with :url => {:action => :index}, :method => "get" do |form| %>
   <em><%= form.label "Select year and region:" %></em>

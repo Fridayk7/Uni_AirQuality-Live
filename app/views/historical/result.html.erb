@@ -1,19 +1,18 @@
 <p>
-<li>Region Name:  <%= Region.find(@search_region).name %></li>
-<li>Population: <%= Region.find(@search_region).population %></li>
-<li>Area (Square km): <%= Region.find(@search_region).area %></li>
-
+<li>Region Name:  <%= @region_name %></li>
+<li>Population: <%= @population %></li>
+<li>Area (Square km): <%= @area %></li>
 </p>
 
 <div id="container" style="width:100%; height:400px;"></div>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-        var myChart = Highcharts.chart('container', {
+        let myChart = Highcharts.chart('container', {
             chart: {
                 type: 'bar'
             },
             title: {
-                text: '<%=  Region.find(@search_region).name %> <%= @search_year %>'
+                text: '<%= @region_name %> <%= @search_year %>'
             },
             xAxis: {
                 categories: ['Lung Cancer', 'COPD', 'Bronchiectasis', "Asthma"]

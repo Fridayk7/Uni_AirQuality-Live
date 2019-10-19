@@ -1,6 +1,12 @@
 # BreatheFree
 Raising Awareness of Air Pollution in the UK.
 
+\
+We aim to provide:
+- Live air quality data at different UK locations.
+- Pulmonary disease data.
+- Proof that more people are diagnosed with pulmonary diseases as the years go by.
+
 ## Group Members
 Faizan Mohiuddin (51874279)
 
