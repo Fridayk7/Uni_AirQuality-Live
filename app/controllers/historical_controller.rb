@@ -37,4 +37,3 @@ class HistoricalController < ApplicationController
     end
   end
 end
-
