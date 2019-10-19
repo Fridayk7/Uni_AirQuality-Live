@@ -10,7 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_19_150936) do
+ActiveRecord::Schema.define(version: 2019_10_19_215036) do
+
+  create_table "average_regions", force: :cascade do |t|
+    t.string "region"
+    t.string "average"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "avg_diagnoseds", force: :cascade do |t|
+    t.string "region"
+    t.string "average"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "cities", force: :cascade do |t|
     t.string "name"

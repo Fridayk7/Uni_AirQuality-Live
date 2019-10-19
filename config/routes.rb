@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :average_regions
+  resources :region_averageregions
   resources :regions
   get 'historical/index'
   get 'historical/result'

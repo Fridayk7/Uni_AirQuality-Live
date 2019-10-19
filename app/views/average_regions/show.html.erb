@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Region:</strong>
+  <%= @average_region.region %>
+</p>
+
+<p>
+  <strong>Average:</strong>
+  <%= @average_region.average %>
+</p>
+
+<%= link_to 'Edit', edit_average_region_path(@average_region) %> |
+<%= link_to 'Back', average_regions_path %>
