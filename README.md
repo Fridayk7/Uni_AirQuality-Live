@@ -1,7 +1,7 @@
 # BreatheFree
 Raising Awareness of Air Pollution in the UK.
 
-##Purpose
+## Purpose
 We aim to provide:
 - Live air quality data at different UK locations.
 - Pulmonary disease data.
@@ -19,7 +19,7 @@ Available on heroku at:
 > ```https://stark-refuge-13120.herokuapp.com```
 
 ## Running the Application Locally
-1. > cd in to the airquality folder
+1. > ```cd``` in to the airquality folder
 2. > run ```bundle install``` on terminal
 3. > migrate the database by running ```rails db:migrate```
 4. > seed the region database using ```rake region:seed_region```
