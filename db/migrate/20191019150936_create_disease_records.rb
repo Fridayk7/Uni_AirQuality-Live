@@ -1,8 +1,8 @@
-class CreateDiseases < ActiveRecord::Migration[5.2]
+class CreateDiseaseRecords < ActiveRecord::Migration[5.2]
   def change
-    create_table :diseases do |t|
+    create_table :disease_records do |t|
       t.integer :year
-      t.string :region
+      t.references :region, foreign_key: true
       t.integer :lc
       t.integer :copd
       t.integer :bronch

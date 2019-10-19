@@ -18,7 +18,7 @@ class DiseaseRecordsTest < ApplicationSystemTestCase
     fill_in "Bronch", with: @disease_record.bronch
     fill_in "Copd", with: @disease_record.copd
     fill_in "Lc", with: @disease_record.lc
-    fill_in "Region", with: @disease_record.region
+    fill_in "Region", with: @disease_record.region_id
     fill_in "Year", with: @disease_record.year
     click_on "Create Disease record"
 
@@ -34,7 +34,7 @@ class DiseaseRecordsTest < ApplicationSystemTestCase
     fill_in "Bronch", with: @disease_record.bronch
     fill_in "Copd", with: @disease_record.copd
     fill_in "Lc", with: @disease_record.lc
-    fill_in "Region", with: @disease_record.region
+    fill_in "Region", with: @disease_record.region_id
     fill_in "Year", with: @disease_record.year
     click_on "Update Disease record"
 

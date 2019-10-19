@@ -1,12 +1,12 @@
 <div id="container" style="width:100%; height:400px;"></div>
-<script> 
+<script>
 document.addEventListener('DOMContentLoaded', function () {
         var myChart = Highcharts.chart('container', {
             chart: {
                 type: 'bar'
             },
             title: {
-                text: '<%= @search_region %> <%= @search_year %>'
+                text: '<%=  Region.find(@search_region).name %> <%= @search_year %>'
             },
             xAxis: {
                 categories: ['Lung Cancer', 'COPD', 'Bronchiectasis', "Asthma"]

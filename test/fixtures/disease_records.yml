@@ -2,7 +2,7 @@
 
 one:
   year: 1
-  region: MyString
+  region: one
   lc: 1
   copd: 1
   bronch: 1
@@ -10,7 +10,7 @@ one:
 
 two:
   year: 1
-  region: MyString
+  region: two
   lc: 1
   copd: 1
   bronch: 1

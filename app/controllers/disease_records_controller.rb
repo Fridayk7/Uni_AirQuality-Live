@@ -69,6 +69,6 @@ class DiseaseRecordsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def disease_record_params
-      params.require(:disease_record).permit(:year, :region, :lc, :copd, :bronch, :asthma)
+      params.require(:disease_record).permit(:year, :region_id, :lc, :copd, :bronch, :asthma)
     end
 end

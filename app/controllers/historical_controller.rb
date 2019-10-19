@@ -8,15 +8,14 @@ class HistoricalController < ApplicationController
       end
       ##
     else
-      @years = DiseaseRecord.select('distinct(year)')
-      @regions = DiseaseRecord.select('distinct(region)')
+      @years = DiseaseRecord.select(:year)
+      @regions = Region.all
     end
 
     def result
       @search_year = params[:year]
       @search_region = params[:region]
       @data_list = nil
-
       if @search_year != nil and @search_region != nil
         # @data_object = DiseaseRecord.find_by_sql("SELECT lc, copd, bronch, asthma FROM disease_records WHERE year=\"" + @search_year + "\" AND region=\"" + @search_region + "\"")
         @data_list = DiseaseRecord.where(year: @search_year, region: @search_region).pluck(:lc, :copd, :bronch, :asthma)
