@@ -57,22 +57,31 @@ Although very uncommon, you may come accross a Rails ParserError when loading th
 
 **Solution:** Simply refresh the page.
 
-### Issue #3
+#### Issue #3
 
 Sometimes an error relating to the 'pg' gem is shown.
 
 **Solution:**
-Type in the following commands in linux terminal:
+Type the following commands into the linux terminal:
 - ```sudo apt-get install postgresql-client libpq5 libpq-dev```
 - ```sudo gem install pg```
 
-### Issue #4
+#### Issue #4
+
+Sometimes an error relating to 'sassc-rails" is shown on bundle install attempt.
+
+**Solution:**
+Type the following into the linux terminal:
+- ```sudo apt-get install sassc-rails```
+- Try to run ```bundle install``` again.
+
+#### Issue #5
 
 Sometimes on the historical/index page the first chart doesn't appear.
 
 **Solution:** Simply refresh the page.
 
-### Issue #5
+#### Issue #6
 
 Open data source is not large enough (doesn't have 2000-3000 records). \
 We couldn't find enough _free_ data that was relevant enough to \
