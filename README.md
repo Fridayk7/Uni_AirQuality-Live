@@ -19,6 +19,8 @@ Available on heroku at:
 > ```https://stark-refuge-13120.herokuapp.com```
 
 ## Running the Application Locally
+
+Please make sure that you have an internet connection in order for many of the features such as the map to function properly.
 1. > ```cd``` in to the airquality folder
 2. > run ```bundle install``` on terminal
 3. > migrate the database by running ```rails db:migrate```
