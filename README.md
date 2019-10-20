@@ -39,6 +39,7 @@ Available on heroku at:
     * JSON list is shown and can then be downloaded as JSON item.
 5. Bootstrap is fully integrated.
     * Containers are also used so that the app automatically adjusts to mobile screens.
+    * Default scaffold views are changed to no longer use html tables.
 6. Application is deployed on Heroku using a postgresql database format.
 
 
