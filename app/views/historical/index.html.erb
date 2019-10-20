@@ -42,7 +42,7 @@ Perhaps this is due to the air quality being poorer in these areas.</p>
 <h5>A chart containing the data will be shown on a new page.</h5>
 <p></p>
 <%= form_with :url => {:action => :index}, :method => "get" do |form| %>
-  <em><%= form.label "Select year and region:" %></em>S
+  <em><%= form.label "Select year and region:" %></em>
   <%= form.collection_select(:search_year, @years, :year, :year) %>
   <%= form.collection_select(:search_region, @regions, :id, :name) %>
   <%= form.submit("Go!") %>
