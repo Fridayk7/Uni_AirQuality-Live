@@ -41,7 +41,9 @@ namespace :region do
   task seed_average: :environment do
 
     AverageRegion.destroy_all
+
     r = Region.last.id.to_i
+    puts "irhbverivbrovbevorv" + r.to_s
     for i in 1..r do
       @region_data =  DiseaseRecord.where region_id: i
       puts @region_data
