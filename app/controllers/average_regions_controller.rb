@@ -1,3 +1,5 @@
+# Paraskevas Kleanthous
+
 class AverageRegionsController < ApplicationController
   before_action :set_average_region, only: [:show, :edit, :update, :destroy]
 

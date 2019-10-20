@@ -1,3 +1,5 @@
+# Andrei Rotariu + Paraskevas Kleanthous
+
 class DiseaseRecordsController < ApplicationController
   before_action :set_disease_record, only: [:show, :edit, :update, :destroy]
 

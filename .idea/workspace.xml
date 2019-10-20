@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de84213e-cfee-42db-8f16-0be3252892ed" name="Default Changelist" comment="">
+    <list default="true" id="de84213e-cfee-42db-8f16-0be3252892ed" name="Default Changelist" comment="comments">
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/average_regions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/average_regions_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/cities_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/cities_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/countries_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/countries_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/disease_records_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/disease_records_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/historical_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/historical_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/regions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/regions_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/states_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/states_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/air_vision_service.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/air_vision_service.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/airquality/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/airquality/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/airquality/safety.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/airquality/safety.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/historical/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/historical/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/historical/result.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/historical/result.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_menu.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_menu.html.erb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +215,8 @@
       <workItem from="1571430940810" duration="599000" />
       <workItem from="1571506614197" duration="747000" />
       <workItem from="1571508078264" duration="21000" />
-      <workItem from="1571515996888" duration="15282000" />
+      <workItem from="1571515996888" duration="16103000" />
+      <workItem from="1571558830309" duration="4387000" />
     </task>
     <task id="LOCAL-00001" summary="added index&#10;updated readme.md">
       <created>1570549242204</created>
@@ -328,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571530900063</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="bug fixes">
+      <created>1571531432075</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1571531432075</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +383,8 @@
     <MESSAGE value="added new chart" />
     <MESSAGE value="updated charts" />
     <MESSAGE value="minor updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor updates" />
+    <MESSAGE value="bug fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fixes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/airquality@Development__airquality.rcov" NAME="Development: airquality Coverage Results" MODIFIED="1570904492653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="airquality" />

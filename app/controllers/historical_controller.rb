@@ -1,3 +1,5 @@
+# Andrei Rotariu
+
 class HistoricalController < ApplicationController
   # Choosing a chart. Seeing diagnoses totals data.
   def index
